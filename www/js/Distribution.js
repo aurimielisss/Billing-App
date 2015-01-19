@@ -18,7 +18,7 @@ $(function () {
         this.amount = amount;
     }
 
-    $.connection.hub.start({jsonp: true}).done(function() {
+    $.connection.hub.start({transport: "longPolling"}).done(function() {
        distributionHub.server.getBills();
     });
 })
