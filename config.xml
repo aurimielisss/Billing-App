@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="net.gavinpower.billingapp" version="1.0.0">
   <name>Billing App</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
+  <description></description>
   <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
@@ -10,7 +10,7 @@
   <preference name="fullscreen" value="true"/>
   <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
-  <preference name="stay-in-webview" value="false"/>
+  <preference name="stay-in-webview" value="true"/>
   <preference name="ios-statusbarstyle" value="black-opaque"/>
   <preference name="detect-data-types" value="true"/>
   <preference name="exit-on-suspend" value="false"/>
